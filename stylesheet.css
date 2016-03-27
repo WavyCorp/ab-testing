@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family: 'source-sans';
+    src: url('fonts/a5b6902a-webfont.eot');
+    src: url('fonts/le-patin-helvete-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/le-patin-helvete-webfont.woff') format('woff'),
+         url('fonts/le-patin-helvete-webfont.ttf') format('truetype'),
+         url('fonts/le-patin-helvete-webfont.svg#osp_le-patin-helvetemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'picto';
+    src: url('fonts/a5b6902a-webfont.eot');
+    src: url('fonts/a5b6902a-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/a5b6902a-webfont.woff') format('woff'),
+         url('fonts/a5b6902a-webfont.ttf') format('truetype'),
+         url('fonts/a5b6902a-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.shadow {
+  -webkit-box-shadow: 15px 13px 163px -46px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 15px 13px 163px -46px rgba(0, 0, 0, 0.75);
+  box-shadow: 15px 13px 163px -46px rgba(0, 0, 0, 0.75);
+}
+
+.span-title {
+  padding-left: 10px;
+}
+
+.white-text {
+  color: white;
+}
+
+.vcenter {
+  display: inline;
+  vertical-align: middle;
+  margin: 0 5px;
+  height: 80px;
+}
+
+.desc-panel {
+  background-color: white;
+  padding-right: 44px;
+}
+
+.display-inline {
+  display: flex;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-description {
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+.plus-btn {
+  background: #4464C0;
+  padding: 3px 26px;
+  color: white;
+}
+
+.plus-btn-white {
+  background: white;
+  padding: 3px 26px;
+  color: #4464C0;
+}
+
+.value-prop {
+  background: #F4F4F5;
+  padding: 25px;
+  border-style: solid;
+  border-color: #dedede;
+  border-width: 1px 0px;
+}
+
+.subtext {
+  color: #53585F;
+  letter-spacing: 0.09em;
+}
+
+.items {
+  background: #4464C0;
+}
+
+.plus-btn-white {
+  border-color: white;
+  border-width: 2px;
+}
+
+.plus-btn-white:hover {
+  background: black;
+  border-style: solid;
+  color:white;
+  border-color: black;
+  border-width: 2px;
+}
+
+.plus-btn {
+  border-color: white;
+  border-width: 2px;
+}
+
+.plus-btn:hover {
+  background: white;
+  border-style: solid;
+  border-color: #4464C0;
+  border-width: 2px;
+}
