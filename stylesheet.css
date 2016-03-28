@@ -25,7 +25,6 @@
 }
 
 body {
-  zoom:120%;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -152,6 +151,24 @@ input {
 }
 
 @media(max-width:767px){
+
+  .benef {
+    margin-left: 0px;
+    margin-bottom: 4px;
+  }
+
+  .span-title {
+    margin-top: 18px;
+  }
+
+  .fa {
+   margin-top: 12px; 
+  }
+
+  .contact {
+    margin-left: 25%;
+  }
+
   .remodal-is-initialized {
     width: 309px; 
   }
